@@ -24,9 +24,7 @@
 </parent>
 ```
 
-
 <center>&darr;&darr;&darr;</center>
-
 
 ```xml
 
@@ -84,6 +82,13 @@ server.port=18080
 ```
 
 ## 测试方法
+
+### 测试机配置
+
+|\|berf（16）|springboot-stone（175）|
+|---|---|---|
+|CPU|12 core Intel(R) Xeon(R) CPU E5-2603 v4 @ 1.70GHz|4 core Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz|
+|内存|62 GiB|8 GiB|
 
 ### 启动程序
 
@@ -238,7 +243,7 @@ Springboot 空工程（sprintboot-stone）性能测试 TPS
 
 结果：
 
-1. springboot 初始项目，空逻辑接口 3.3W ~ 3.7W，针对当前测试场景，性能略高于未开启长链接的多合一脚手架项目，微低于开启长链接后的多合一脚手架项目。
+1. springboot 初始项目，空逻辑接口 3.3W ~ 3.7W，针对当前测试场景，性能略高于未开启长链接的多合一脚手架项目，略低于开启长链接后的多合一脚手架项目。
 
 2. 增加 TPS 性能的操作
 
