@@ -2,6 +2,8 @@
 
 ### 进入 `https://start.spring.io/`
 
+[https://start.spring.io/](https://start.spring.io/)
+
 ### 输入项目信息
 
 输入项目信息后，点击`GENERATE`生成并下载项目（zip）
