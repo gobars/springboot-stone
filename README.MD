@@ -83,13 +83,6 @@ server.port=18081
 
 ## 测试方法
 
-### 测试机配置
-
-|\|berf（16）|springboot-stone（175）|
-|---|---|---|
-|CPU|12 core Intel(R) Xeon(R) CPU E5-2603 v4 @ 1.70GHz|4 core Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz|
-|内存|62 GiB|8 GiB|
-
 ### 启动程序
 
 ```shell
