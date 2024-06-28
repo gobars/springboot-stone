@@ -95,7 +95,8 @@ server.port=18080
 ### 启动程序
 
 ```shell
-java -server -jar springboot-stone-0.0.1-SNAPSHOT.jar -Xmx4g
+java -server -XX:+UseG1GC -Xmx6072m -Xms6072m -Xss512k -XX:+DisableExplicitGC -XX:LargePageSizeInBytes=128m -XX:+HeapDumpOnOutOfMemoryError  -Dfile.encoding=UTF-8 -Dserver.port=55080 -jar springboot-stone-0.0.1.jar 
+java -server -XX:+UseG1GC -Xmx6072m -Xms6072m -Xss512k -XX:+DisableExplicitGC -XX:LargePageSizeInBytes=128m -XX:+HeapDumpOnOutOfMemoryError  -Dfile.encoding=UTF-8 -jar springboot-stone-keepalive-0.0.1.jar 
 ```
 
 ### 启动测试程序

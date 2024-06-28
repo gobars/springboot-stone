@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cn.bjca.footstone</groupId>
-	<artifactId>springboot-stone-keepalive</artifactId>
+	<artifactId>springboot-stone</artifactId>
 	<version>0.0.1</version>
 	<name>springboot-stone</name>
 	<description>测试原生 spring boot 测试接口性能</description>
